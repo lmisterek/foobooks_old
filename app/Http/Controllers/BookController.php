@@ -16,8 +16,7 @@ class BookController extends Controller
      */
     public function index()
     {
-        return \App::environment();
-    #    return 'To do: Display a listing of all the books.';
+        return 'To do: Display a listing of all the books.';
     }
     /**
      * Show the form for creating a new resource.
