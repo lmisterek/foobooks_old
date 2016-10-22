@@ -56,11 +56,11 @@ class BookController extends Controller
         # return redirect('/books/create');
     }
     /**
-     * Display the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
+    * Display the specified resource.
+    *
+    * @param  int  $title
+    * @return \Illuminate\Http\Response
+    */
     public function show($title)
     {
         return view('book.show')->with('title', $title);

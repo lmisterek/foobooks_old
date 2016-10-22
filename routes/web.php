@@ -15,7 +15,7 @@
 * Book resource
 */
 # Index page to show all the books
-#Route::get('/books', 'BookController@index')->name('books.index');
+Route::get('/books', 'BookController@index')->name('books.index');
 # Show a form to create a new book
 Route::get('/books/create', 'BookController@create')->name('books.create');
 # Process the form to create a new book
